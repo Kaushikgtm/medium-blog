@@ -1,0 +1,20 @@
+{
+  "name": "Medium-blog-69",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@kaushik_gtm/medium-common": "^1.0.0",
+    "@kaushik_gtm/medium-common-1": "^1.0.0",
+    "@kaushik_gtm/medium-common-2": "^1.0.0",
+    "@prisma/client": "^5.15.1",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "hono": "^4.4.7",
+    "prisma": "^5.15.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
+  }
+}
